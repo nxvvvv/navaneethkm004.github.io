@@ -1,5 +1,4 @@
-//          Dark mode toggle
-// @SEE https://ryanfeigenbaum.com/dark-mode/
+
 if (window.CSS && CSS.supports("color", "var(--primary)")) {
   var toggleColorMode = function toggleColorMode(e) {
     // Switch to Light Mode
